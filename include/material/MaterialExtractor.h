@@ -58,6 +58,7 @@ namespace WarframeExporter::Material
 				{ LotusLib::Game::SOULFRAME, LotusLib::PackageCategory::MISC, (int)MaterialBasicType::MATERIAL_208 },
 				{ LotusLib::Game::WARFRAME, LotusLib::PackageCategory::MISC, (int)MaterialBasicType::MATERIAL_209 },
 				{ LotusLib::Game::SOULFRAME, LotusLib::PackageCategory::MISC, (int)MaterialBasicType::MATERIAL_209 },
+				{ LotusLib::Game::WARFRAME, LotusLib::PackageCategory::MISC, (int)MaterialBasicType::MATERIAL_210 },
 				{ LotusLib::Game::WARFRAME, LotusLib::PackageCategory::MISC, (int)MaterialHLMType::MATERIAL_HLM_214 },
 				{ LotusLib::Game::WARFRAME, LotusLib::PackageCategory::MISC, (int)MaterialHLMType::MATERIAL_HLM_216 },
 				{ LotusLib::Game::SOULFRAME, LotusLib::PackageCategory::MISC, (int)MaterialHLMType::MATERIAL_HLM_216 },
