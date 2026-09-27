@@ -41,6 +41,9 @@ endif()
 ##################################################
 # Source files
 
+# Apply compatibility fixes to pinned third-party sources before adding them.
+include("${CMAKE_CURRENT_SOURCE_DIR}/cmake/PatchLotusLib.cmake")
+
 file(GLOB WARFRAME_EXPORTER_SOURCES CONFIGURE_DEPENDS 
 	${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/material/*.cpp
